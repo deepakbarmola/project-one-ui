@@ -3,16 +3,16 @@ import react from 'react';
 export default function BookDetailsTile(props){
 
     return(
-        <div>
-            <div>
-                <span>
+        <div className="book-details">
+            <div className="book-image-section">
+                <span className="book-image">
                     BOOK'S IMAGE
                 </span>
             </div>
-            <div>
-                <div>Book Title</div>
-                <div>Author</div>
-                <div><a>MORE INFO</a></div>
+            <div className="book-detail-section">
+                <div className="book-title">Book Title</div>
+                <div className="book-author">Author</div>
+                <div><a className="more-info">MORE INFO</a></div>
             </div>
         </div>
     )

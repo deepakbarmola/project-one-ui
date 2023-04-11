@@ -23,14 +23,18 @@ export default function BookListComponent(props){
             <button>ADD A BOOK</button>
           </span>
         </div>
-        <div>
+        <div className="book-detail-cards-flex">
+            
         {x.map((detail, index)=>{
             return(
+                <div className="flex-item" key={index}>
                  <BookDetailsTile key={index} bookName={detail.bookName} author={detail.author} />
+                 </div>
             );
            
         })
         }
+       
         </div>
 
         </div>
