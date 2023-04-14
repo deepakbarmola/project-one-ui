@@ -6,7 +6,7 @@ export default function BookDetailsTile(props){
         <div className="book-details">
             <div className="book-image-section">
                 <span className="book-image">
-                    BOOK'S IMAGE
+                    BOOK'S IMAGE hello hello hello
                 </span>
             </div>
             <div className="book-detail-section">
